@@ -12,10 +12,11 @@ It should be used in conjunction with Maven Shade plugin.
 	<version>0.0.1-SNAPSHOT</version>
 	<executions>
 		<execution>
-		<phase>package</phase>
-		<goals>
-			<goal>binary</goal>
-		</goals>
+			<phase>package</phase>
+			<goals>
+				<goal>binary</goal>
+			</goals>
+		</execution>
 	</executions>
 </plugin>
 ```
